@@ -1,6 +1,6 @@
 package siemens.plm.bankaccountkata;
 
-enum AccountType
+public enum AccountType
 {
 	CheckingAccount,
 	FixedTermBondAccount,
