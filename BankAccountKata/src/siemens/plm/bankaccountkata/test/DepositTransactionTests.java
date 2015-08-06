@@ -3,6 +3,7 @@ package siemens.plm.bankaccountkata.test;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import static org.mockito.Mockito.*;
 
 import siemens.plm.bankaccountkata.AccountType;
 import siemens.plm.bankaccountkata.BankAccount;
@@ -16,7 +17,7 @@ public class DepositTransactionTests {
     // Given
 	BankAccount account = new BankAccount(AccountType.CheckingAccount);
 	account.setBalance(100);
-
+		
 	// When
 	DepositTransaction depositIntoAccount = new DepositTransaction(account);
 	depositIntoAccount .Execute(100);

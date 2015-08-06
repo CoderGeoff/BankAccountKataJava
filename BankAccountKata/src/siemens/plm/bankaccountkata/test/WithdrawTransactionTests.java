@@ -3,6 +3,7 @@ package siemens.plm.bankaccountkata.test;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import static org.mockito.Mockito.*;
 
 import siemens.plm.bankaccountkata.AccountType;
 import siemens.plm.bankaccountkata.BankAccount;
